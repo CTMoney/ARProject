@@ -5,8 +5,13 @@ $("#subButton").on("click", () => {
 
     $.post("/subscribe", { data: email })
         .then(response => {
+            
             $("#inputEmail").val("")
             console.log(response)
+            if (confirm("Would you like to go to AR?")) {
+                window.location.replace("/ar")
+            }
+           
         })
 
 })

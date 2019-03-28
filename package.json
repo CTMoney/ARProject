@@ -2,8 +2,9 @@
     "title": "Grayscale",
     "name": "startbootstrap-grayscale",
     "version": "5.0.5",
+
     "scripts": {
-        "start": "gulp watch",
+        "start": "node server",
         "poststart": "npm prune --production"
     },
     "description": "A grayscale one page HTML theme for Bootstrap.",

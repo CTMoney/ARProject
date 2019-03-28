@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/aframe.js"></script>
+    <script src="./js/aframe-ar.js"></script>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body> 
+    <div class="container">
+    <a-scene embedded arjs='trackingMethod: best; debugUIEnabled: false;' vr-mode-ui="enabled: false">
+      <a-anchor hit-testing-enabled='true'>
+        <a-text value="Hello World" rotation="-90 0 0" position="-0.5 -1 0"></a-text>
+        <a-image rotation="-90 0 0" src="public\img\game.png"></a-image>
+      </a-anchor>
+      <a-camera-static />
+      <!-- some kind of button here is all I really have in mind. I just want it to have a simple onclick that pulls the image and displays it in some fashion. -->
+     <div class="d-flex align-items-end flex-column">
+      <button type="button" class="btn btn-primary btn-lg btn-block mt-auto">Block level button</button>
+    </div>
+    </a-scene> 
+  </div>
+</body>
+</html>

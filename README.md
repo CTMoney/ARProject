@@ -29,7 +29,7 @@ Built using:
 AR.js
 Node.js
 A-frame
-Font Awesome
+Font Awesome Icons
 Bootstrap 4
 Express
 Jquery
@@ -37,4 +37,4 @@ MYSQL2
 Sequelize
 SASS 
 Gulp.js
-Grayscale.js 
+Grayscale

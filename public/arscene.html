@@ -7,20 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="./js/aframe.js"></script>
   <script src="./js/aframe-ar.js"></script>
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
   <title>Document</title>
 </head>
 
 <body>
-  <div class="container">
-    <a-scene embedded arjs='trackingMethod: best; debugUIEnabled: false;' vr-mode-ui="enabled: false">
+
+    <a-scene embedded arjs='trackingMethod: best;' vr-mode-ui="enabled: false">
       <a-anchor hit-testing-enabled='true'>
-        <a-text value="Hello World" rotation="-90 0 0" position="-0.5 -1 0"></a-text>
-        <a-image rotation="-90 0 0" src="public\img\game.png"></a-image>
+        <a-plane src="img/ucf.png" height="3" width="3" rotation="-90 0 0" color="grey" position="0 1 0"></a-plane>
       </a-anchor>
       <a-camera-static />
     </a-scene>
-  </div>
+ 
 </body>
 
 </html>

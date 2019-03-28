@@ -35,3 +35,6 @@ Express
 Jquery
 MYSQL2
 Sequelize
+SASS 
+Gulp.js
+Grayscale.js 
